@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { 'Antoine Cœur' => '' }
   s.social_media_url   = 'https://twitter.com/adigitalknight'
-  s.platform     = :ios, '8.0'
+  s.platforms = { :ios => "11.0", :tvos => "11.0" }
   s.source       = { :git => 'https://github.com/coeur/CollectionViewCenteredFlowLayout.git', :tag => version }
   s.source_files  = 'CollectionViewCenteredFlowLayout/*.swift'
 end
